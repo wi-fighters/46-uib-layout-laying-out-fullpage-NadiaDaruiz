@@ -4,14 +4,18 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+    background-color: #1a1a1a;
+}
+
 .header-nav-list {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-
 }
 
 main {
+    background-color: #4b4b4b;
     display: flex;
     align-items: stretch;
 }
@@ -22,4 +26,37 @@ main {
     justify-content: flex-start;
     align-items: center;
     width: 50rem;
+    padding: 15px;
 }
+
+header {
+    background-color: #4b4b4b;
+    color: white;
+}
+
+h1 {
+    background-color: #000;
+    color: white;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.card {
+    padding: 1px;
+    margin: 2px;
+}
+
+aside {
+    background-color: white;
+    color: #4b4b4b;
+}
+
+div {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
