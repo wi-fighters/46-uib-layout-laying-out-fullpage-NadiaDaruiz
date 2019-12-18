@@ -3,3 +3,15 @@
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.header-nav-list {
+    display: flex;
+}
+
+main {
+    display: flex;
+}
+
+.cards {
+    display: flex;
+}
