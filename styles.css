@@ -9,17 +9,14 @@
 }
 
 main {
-    /* height: 100vh;  just testing */
     display: flex;
     align-items: stretch;
 }
 
-/* just testing
-main>* {
-    background-color: palevioletred;
-    border: blue 1px solid;
-} */
-
 .cards {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90rem;
 }
